@@ -2,13 +2,13 @@ import React from 'react'
 import ProjectSummary from './ProjectSummary';
 
 const ProjectList = () => {
-  return (
+    return (
         <div >
             <ProjectSummary />
             <ProjectSummary />
             <ProjectSummary />
-        </div>    
-  )
+        </div>
+    )
 }
 
 export default ProjectList

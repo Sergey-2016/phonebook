@@ -4,15 +4,15 @@ import SignedInLinks from './SignedInLinks'
 import SignedOutLinks from './SignedOutLinks'
 
 const Navbar = () => {
-return(
-    <nav className = "nav-wrapper grey darken-3">
-        <div className = "container">
-            <Link to= '/' className = 'brand-logo'>Phonebook</Link>
-            <SignedInLinks />
-            <SignedOutLinks />
-        </div>
+    return (
+        <nav className="nav-wrapper grey darken-3">
+            <div className="container">
+                <Link to='/' className='brand-logo'>Phonebook</Link>
+                <SignedInLinks />
+                <SignedOutLinks />
+            </div>
         </nav>
-)
+    )
 }
 
 export default Navbar;
