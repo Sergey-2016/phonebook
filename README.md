@@ -1,1 +1,1 @@
-Firebase-React-Redux-App.
+Firebase-React-Redux-App
